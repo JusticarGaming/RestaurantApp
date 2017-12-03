@@ -16,3 +16,12 @@ C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\ManagerB
 C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\ManagerBack\obj\Debug\netcoreapp1.1\ManagerBack.AssemblyInfo.cs
 C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\ManagerBack\obj\Debug\netcoreapp1.1\ManagerBack.dll
 C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\ManagerBack\obj\Debug\netcoreapp1.1\ManagerBack.pdb
+C:\Users\vicus\Repos\RestaurantApp\ManagerBack\bin\Debug\netcoreapp1.1\ManagerBack.deps.json
+C:\Users\vicus\Repos\RestaurantApp\ManagerBack\bin\Debug\netcoreapp1.1\ManagerBack.runtimeconfig.json
+C:\Users\vicus\Repos\RestaurantApp\ManagerBack\bin\Debug\netcoreapp1.1\ManagerBack.runtimeconfig.dev.json
+C:\Users\vicus\Repos\RestaurantApp\ManagerBack\bin\Debug\netcoreapp1.1\ManagerBack.dll
+C:\Users\vicus\Repos\RestaurantApp\ManagerBack\bin\Debug\netcoreapp1.1\ManagerBack.pdb
+C:\Users\vicus\Repos\RestaurantApp\ManagerBack\obj\Debug\netcoreapp1.1\ManagerBack.csprojResolveAssemblyReference.cache
+C:\Users\vicus\Repos\RestaurantApp\ManagerBack\obj\Debug\netcoreapp1.1\ManagerBack.AssemblyInfo.cs
+C:\Users\vicus\Repos\RestaurantApp\ManagerBack\obj\Debug\netcoreapp1.1\ManagerBack.dll
+C:\Users\vicus\Repos\RestaurantApp\ManagerBack\obj\Debug\netcoreapp1.1\ManagerBack.pdb
