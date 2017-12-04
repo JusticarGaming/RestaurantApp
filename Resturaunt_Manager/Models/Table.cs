@@ -11,8 +11,6 @@ namespace Resturaunt_Manager.Models
         [Key]
         public int Id { get; set; }
         public string Tablename { get; set; }
-        //public virtual Account {get;set;}
-        //public virtual Waiter {get;set;
         public DateTime Timestamp { get; set; }
 
         public virtual ICollection<Account> Accounts { get; set; }

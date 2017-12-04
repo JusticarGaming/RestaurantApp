@@ -24,3 +24,16 @@ C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\TabletAp
 C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\TabletApp\obj\Debug\TabletApp.csprojResolveAssemblyReference.cache
 C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\TabletApp\obj\Debug\TabletApp.dll
 C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\TabletApp\obj\Debug\TabletApp.pdb
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\bin\Debug\TabletApp.dll
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\bin\Debug\TabletApp.pdb
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\obj\Debug\TabletApp.csprojResolveAssemblyReference.cache
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\obj\Debug\TabletApp.dll
+C:\Users\vicus\Repos\RestaurantApp\TabletApp\obj\Debug\TabletApp.pdb

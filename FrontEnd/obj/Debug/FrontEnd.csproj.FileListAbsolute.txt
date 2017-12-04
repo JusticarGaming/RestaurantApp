@@ -16,3 +16,12 @@ C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\FrontEnd
 C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\FrontEnd\obj\Debug\FrontEnd.csproj.GenerateResource.Cache
 C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\FrontEnd\obj\Debug\FrontEnd.exe
 C:\Users\vicus\Documents\Visual Studio 2017\Projects\Resturaunt_Manager\FrontEnd\obj\Debug\FrontEnd.pdb
+C:\Users\vicus\Repos\RestaurantApp\FrontEnd\bin\Debug\FrontEnd.exe.config
+C:\Users\vicus\Repos\RestaurantApp\FrontEnd\bin\Debug\FrontEnd.exe
+C:\Users\vicus\Repos\RestaurantApp\FrontEnd\bin\Debug\FrontEnd.pdb
+C:\Users\vicus\Repos\RestaurantApp\FrontEnd\obj\Debug\FrontEnd.csprojResolveAssemblyReference.cache
+C:\Users\vicus\Repos\RestaurantApp\FrontEnd\obj\Debug\FrontEnd.LandingPage.resources
+C:\Users\vicus\Repos\RestaurantApp\FrontEnd\obj\Debug\FrontEnd.Properties.Resources.resources
+C:\Users\vicus\Repos\RestaurantApp\FrontEnd\obj\Debug\FrontEnd.csproj.GenerateResource.Cache
+C:\Users\vicus\Repos\RestaurantApp\FrontEnd\obj\Debug\FrontEnd.exe
+C:\Users\vicus\Repos\RestaurantApp\FrontEnd\obj\Debug\FrontEnd.pdb

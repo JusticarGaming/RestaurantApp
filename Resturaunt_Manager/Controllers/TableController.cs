@@ -47,16 +47,16 @@ namespace Resturaunt_Manager.Controllers
             }
         }
 
-        //public static async Task<int> Create(Account account)
-        //{
-        //    using (var db = new RestaurantDatabase())
-        //    {
-        //        account.Tables = await db.Table.FirstAsync(x => x.Id == account.Table.Id);
-        //        db.Table.Add(account);
-        //        await db.SaveChangesAsync();
-        //        return account.Id;
-        //    }
-        //}
+        public static async Task<int> Create(Account account)
+        {
+            using (var db = new RestaurantDatabase())
+            {
+                account.Table = await db.Table.FirstAsync(x => x.Id == account.Table.Id);
+                db.Table.Add(account.Table);
+                await db.SaveChangesAsync();
+                return account.Id;
+            }
+        }
 
         public static async Task Update(Table table)
         {
