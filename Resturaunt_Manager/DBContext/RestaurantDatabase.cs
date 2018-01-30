@@ -12,9 +12,9 @@ namespace Resturaunt_Manager.DBContext
 {
     public class RestaurantDatabase : DbContext
     {
-        public DbSet<Account> Account { get; set; }
-        public DbSet<Waiter> Waiter { get; set; }
-        public DbSet<Table> Table { get; set; }
+        public IDbSet<Account> Account { get; set; }
+        public IDbSet<Waiter> Waiter { get; set; }
+        public IDbSet<Table> Table { get; set; }
 
 
 

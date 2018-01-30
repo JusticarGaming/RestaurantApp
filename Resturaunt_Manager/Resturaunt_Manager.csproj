@@ -130,6 +130,9 @@
     <Compile Include="Repos\AccountRepository.cs" />
     <Compile Include="Repos\TableRepository.cs" />
     <Compile Include="Repos\WaiterRepository.cs" />
+    <Compile Include="Services\AccountService.cs" />
+    <Compile Include="Services\TableService.cs" />
+    <Compile Include="Services\WaiterService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
