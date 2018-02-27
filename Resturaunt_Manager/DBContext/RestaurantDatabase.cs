@@ -15,7 +15,8 @@ namespace Resturaunt_Manager.DBContext
         public IDbSet<Account> Account { get; set; }
         public IDbSet<Waiter> Waiter { get; set; }
         public IDbSet<Table> Table { get; set; }
-
+        public IDbSet<Category> Categories { get; set; }
+        public IDbSet<MenuItem> MenuItems { get; set; }
 
 
         #region Auto Migration
@@ -29,7 +30,7 @@ namespace Resturaunt_Manager.DBContext
             }
         }
 
-        static RestaurantDatabase()
+        static RestaurantDatabase() 
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<RestaurantDatabase, DatabaseConfig>());
         }

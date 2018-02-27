@@ -17,6 +17,7 @@ namespace Resturaunt_Manager.Models
         public virtual ICollection<Table> Tables { get; set; }
         [Required] public virtual Table Table { get; set; }
         public virtual ICollection<Account> Accounts { get; set; }
+        public virtual ICollection<MenuItem> MenuItems { get; set; }
         public Account() { Timestamp = DateTime.Now; }
     }
 }
