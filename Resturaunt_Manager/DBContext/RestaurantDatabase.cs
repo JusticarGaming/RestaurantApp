@@ -18,6 +18,7 @@ namespace Resturaunt_Manager.DBContext
         public IDbSet<Category> Categories { get; set; }
         public IDbSet<MenuItem> MenuItems { get; set; }
 
+        public RestaurantDatabase() : base("RestaurantDB") { }
 
         #region Auto Migration
 
