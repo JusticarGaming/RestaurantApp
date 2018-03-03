@@ -95,7 +95,7 @@ namespace Resturaunt_Manager.Controllers
       {
          using (var db = new RestaurantDatabase())
          {
-            List<Account> accounts = await db.Account.Where(x => x.WaiterId == waiterid).ToListAsync();
+            List<Account> accounts = await db.Account.Where(x => x.Waiterid == waiterid).ToListAsync();
             if (accounts == null) { throw new KeyNotFoundException(); }
             return accounts.ToList();
          }
