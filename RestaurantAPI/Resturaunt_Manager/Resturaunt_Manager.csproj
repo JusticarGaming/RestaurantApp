@@ -120,6 +120,8 @@
     <Compile Include="Controllers\WaiterController.cs" />
     <Compile Include="DBContext\RestaurantDatabase.cs" />
     <Compile Include="DTOs\AccountDTO.cs" />
+    <Compile Include="DTOs\CategoryDTO.cs" />
+    <Compile Include="DTOs\MenuItemDTO.cs" />
     <Compile Include="DTOs\TableDTO.cs" />
     <Compile Include="DTOs\WaiterDTO.cs" />
     <Compile Include="Global.asax.cs">

@@ -13,8 +13,7 @@ namespace Resturaunt_Manager.Models
         public string Tablename { get; set; }
         public DateTime Timestamp { get; set; }
 
-        public virtual ICollection<Account> Accounts { get; set; }
-        [Required] public virtual Account Account { get; set; }
+        public virtual ICollection<Account> Accounts { get; set; }        
         [Required] public virtual Waiter Waiter { get; set; }
 
         public Table() { Timestamp = DateTime.Now; }
