@@ -115,6 +115,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\MenuItemController.cs" />
     <Compile Include="Controllers\TableController.cs" />
     <Compile Include="Controllers\WaiterController.cs" />
     <Compile Include="DBContext\RestaurantDatabase.cs" />

@@ -12,6 +12,7 @@ namespace Resturaunt_Manager.Models
         public string ItemDescription { get; set; }
         public double ItemPrice { get; set; }
         public virtual ICollection<MenuItem> Items { get; set; }
+        public List<string> ExtrasList { get; set; }
 
     }
 }
