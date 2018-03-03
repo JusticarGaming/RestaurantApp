@@ -118,16 +118,16 @@
     <Compile Include="Controllers\MenuItemController.cs" />
     <Compile Include="Controllers\TableController.cs" />
     <Compile Include="Controllers\WaiterController.cs" />
-    <Compile Include="DBContext\AccountDTO.cs" />
-    <Compile Include="DBContext\MenuItemDTO.cs" />
+    <Compile Include="DBContext\DTOs\AccountDTO.cs" />
+    <Compile Include="DBContext\DTOs\CategoryDTO.cs" />
+    <Compile Include="DBContext\DTOs\MenuItemDTO.cs" />
+    <Compile Include="DBContext\DTOs\RestaurantDatabase.cs" />
+    <Compile Include="DBContext\DTOs\TableDTO.cs" />
+    <Compile Include="DBContext\DTOs\WaiterDTO.cs" />
+    <Compile Include="DBContext\Models\AccountOrderItem.cs" />
+    <Compile Include="DBContext\Models\MenuItemOptionOptions.cs" />
+    <Compile Include="DBContext\Models\MenuItemOptions.cs" />
     <Compile Include="DBContext\RestaurantDatabase.cs" />
-    <Compile Include="DBContext\TableDTO.cs" />
-    <Compile Include="DBContext\WaiterDTO.cs" />
-    <Compile Include="DTOs\AccountDTO.cs" />
-    <Compile Include="DTOs\CategoryDTO.cs" />
-    <Compile Include="DTOs\MenuItemDTO.cs" />
-    <Compile Include="DTOs\TableDTO.cs" />
-    <Compile Include="DTOs\WaiterDTO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
