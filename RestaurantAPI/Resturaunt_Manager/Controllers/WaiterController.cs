@@ -91,13 +91,13 @@ namespace Resturaunt_Manager.Controllers
          }
       }
 
-      public static async Task<Account[]> GetAccountList(int waiterid)
+      public static async Task<List<Account>> GetAccountList(int waiterid)
       {
          using (var db = new RestaurantDatabase())
          {
-            Account accounts = await db.Account.FirstOrDefaultAsync(x => x.Id == waiterid);
+            List<Account> accounts = await db.Account.Where(x => x.WaiterId == waiterid).ToListAsync();
             if (accounts == null) { throw new KeyNotFoundException(); }
-            return accounts.Accounts.ToArray();
+            return accounts.ToList();
          }
       }
     }
