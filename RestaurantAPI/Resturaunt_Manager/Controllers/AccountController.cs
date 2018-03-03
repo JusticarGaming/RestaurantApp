@@ -77,7 +77,7 @@ namespace Resturaunt_Manager.Controllers
             using (var db = new RestaurantDatabase())
             {
                 Account existing = await db.Account.FirstOrDefaultAsync(x => x.Id == account.Id);
-                if (existing == null) { throw new KeyNotFoundException(); }
+                if (existing == null) { throw new HttpResponseException(HttpStatusCode.NotFound); }
                 db.Account.Remove(existing);
                 await db.SaveChangesAsync();
             }

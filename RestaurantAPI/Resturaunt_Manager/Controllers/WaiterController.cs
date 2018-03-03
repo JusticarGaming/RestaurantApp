@@ -4,8 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using System.Web;
+using System.Web.Http;
 
 namespace Resturaunt_Manager.Controllers
 {
@@ -64,7 +66,7 @@ namespace Resturaunt_Manager.Controllers
             using (var db = new RestaurantDatabase())
             {
                 Waiter existing = await db.Waiter.FirstOrDefaultAsync(x => x.Id == waiter.Id);
-                if (existing == null) { throw new KeyNotFoundException(); }
+                if (existing == null) { throw new HttpResponseException(HttpStatusCode.NotFound); }
                 existing.Waitername = waiter.Waitername;
                 await db.SaveChangesAsync();
             }
@@ -75,7 +77,7 @@ namespace Resturaunt_Manager.Controllers
             using (var db = new RestaurantDatabase())
             {
                 Waiter existing = await db.Waiter.FirstOrDefaultAsync(x => x.Id == waiter.Id);
-                if (existing == null) { throw new KeyNotFoundException(); }
+                if (existing == null) { throw new HttpResponseException(HttpStatusCode.NotFound); }
                 db.Waiter.Remove(existing);
                 await db.SaveChangesAsync();
             }
@@ -96,7 +98,7 @@ namespace Resturaunt_Manager.Controllers
          using (var db = new RestaurantDatabase())
          {
             List<Account> accounts = await db.Account.Where(x => x.Waiterid == waiterid).ToListAsync();
-            if (accounts == null) { throw new KeyNotFoundException(); }
+            if (accounts == null) { throw new HttpResponseException(HttpStatusCode.NotFound); }
             return accounts.ToList();
          }
       }

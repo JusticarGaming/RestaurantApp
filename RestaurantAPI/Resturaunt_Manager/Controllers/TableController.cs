@@ -4,8 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using System.Web;
+using System.Web.Http;
 
 namespace Resturaunt_Manager.Controllers
 {
@@ -63,7 +65,7 @@ namespace Resturaunt_Manager.Controllers
             using (var db = new RestaurantDatabase())
             {
                 Waiter existing = await db.Waiter.FirstOrDefaultAsync(x => x.Id == table.Id);
-                if (existing == null) { throw new KeyNotFoundException(); }
+                if (existing == null){throw new HttpResponseException(HttpStatusCode.NotFound); }
                 existing.Waitername = table.Tablename;
                 await db.SaveChangesAsync();
             }
@@ -74,7 +76,7 @@ namespace Resturaunt_Manager.Controllers
             using (var db = new RestaurantDatabase())
             {
                 Table existing = await db.Table.FirstOrDefaultAsync(x => x.Id == table.Id);
-                if (existing == null) { throw new KeyNotFoundException(); }
+                if (existing == null) { throw new HttpResponseException(HttpStatusCode.NotFound); }
                 db.Table.Remove(existing);
                 await db.SaveChangesAsync();
             }
