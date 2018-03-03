@@ -15,7 +15,7 @@ namespace Resturaunt_Manager.Models
 
         public virtual ICollection<Table> Tables { get; set; }
 
-        public Waiter() { Timestamp = DateTime.Now; }
+        
 
     }
 }
