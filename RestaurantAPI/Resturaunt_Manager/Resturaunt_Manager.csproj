@@ -121,7 +121,6 @@
     <Compile Include="DBContext\DTOs\AccountDTO.cs" />
     <Compile Include="DBContext\DTOs\CategoryDTO.cs" />
     <Compile Include="DBContext\DTOs\MenuItemDTO.cs" />
-    <Compile Include="DBContext\DTOs\RestaurantDatabase.cs" />
     <Compile Include="DBContext\DTOs\TableDTO.cs" />
     <Compile Include="DBContext\DTOs\WaiterDTO.cs" />
     <Compile Include="DBContext\Models\AccountOrderItem.cs" />
