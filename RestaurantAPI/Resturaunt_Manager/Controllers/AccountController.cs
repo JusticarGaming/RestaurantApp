@@ -21,7 +21,8 @@ namespace Resturaunt_Manager.Controllers
                 return db.Account.ToArray();
             }
         }
-
+        [HttpGet]
+        [Route("api/Account/all")]
         public async Task<Account[]> GetAllAsync()
         {
             using (var db = new RestaurantDatabase())
@@ -30,6 +31,8 @@ namespace Resturaunt_Manager.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("api/Account/{Datefrom,DateTo}")]
         public async Task<Account[]> GetByDateAsync(DateTime from, DateTime to)
         {
             using (var db = new RestaurantDatabase())
@@ -61,7 +64,9 @@ namespace Resturaunt_Manager.Controllers
         //    }
         //}
 
-        public static async Task Update(Account account)
+        [HttpPost]
+        [Route("api/Account/Update")]
+        public async Task Update(Account account)
         {
             using (var db = new RestaurantDatabase())
             {
@@ -72,7 +77,7 @@ namespace Resturaunt_Manager.Controllers
             }
         }
 
-        public static async Task Delete(Account account)
+        public async Task Delete(Account account)
         {
             using (var db = new RestaurantDatabase())
             {

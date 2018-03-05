@@ -20,8 +20,8 @@ namespace Resturaunt_Manager.DTOs {
             ItemName = item.ItemName;
             ItemDescription = item.ItemDescription;
             ItemPrice = item.ItemPrice;
-            Items = item.Items.Select(x => new MenuItemDTO(x)).ToList();
-            ExtrasList = item.ExtrasList;
+            //Items = item.Items.Select(x => new MenuItemDTO(x)).ToList();
+            //ExtrasList = item.ExtrasList;
 
         }
 
