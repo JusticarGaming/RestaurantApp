@@ -48,17 +48,21 @@ namespace Resturaunt_Manager.Controllers
 
         [HttpPost]
         [Route("api/menu/{categoryId}/addItem")]
-        public async Task<CategoryDTO> AddCategory(string CategoryName, [FromBody] MenuItemDTO item) {
-
+        public async Task<MenuItemDTO> AddItem(string categoryId, [FromBody] MenuItemDTO item) {
+            
             using (var db = new RestaurantDatabase()) {
-                var cat = new Category() {
-                    CategoryName = CategoryName,
-                    CategoryID = Guid.NewGuid(),
-                    Items = new List<MenuItem>(),
+                var menuItem = new MenuItem() {
+                    ItemDescription = item.ItemDescription,
+                    ItemName = item.ItemName,
+                    ItemPrice = item.ItemPrice,
+                    ItemID = Guid.NewGuid(),      
+                    SpecialInstructions = item.SpecialInstructions,
+                    InStock = true,
+                    
                 };
-                db.Categories.Add(cat);
+                db.MenuItems.Add(menuItem);
                 await db.SaveChangesAsync();
-                return new CategoryDTO(cat);
+                return new MenuItemDTO(menuItem);
             }
 
         }

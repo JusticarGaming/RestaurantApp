@@ -11,8 +11,11 @@ namespace Resturaunt_Manager.DTOs {
         public string ItemName { get; set; }
         public string ItemDescription { get; set; }
         public double ItemPrice { get; set; }
-        public virtual ICollection<MenuItemDTO> Items { get; set; }
-        public List<string> ExtrasList { get; set; }
+        public bool InStock { get; set; }
+
+        public string SpecialInstructions { get; set; }
+
+        public ICollection<MenuItemOptions> Options { get; set; }
 
         public MenuItemDTO(MenuItem item) {
 
@@ -20,8 +23,8 @@ namespace Resturaunt_Manager.DTOs {
             ItemName = item.ItemName;
             ItemDescription = item.ItemDescription;
             ItemPrice = item.ItemPrice;
-            //Items = item.Items.Select(x => new MenuItemDTO(x)).ToList();
-            //ExtrasList = item.ExtrasList;
+            InStock = item.InStock;
+            SpecialInstructions = item.SpecialInstructions;
 
         }
 
